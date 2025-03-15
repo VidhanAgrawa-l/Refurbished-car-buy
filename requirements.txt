@@ -1,0 +1,30 @@
+# pyhton-dotenv
+pymongo
+certifi
+
+
+
+
+
+# Core dependencies
+streamlit
+pandas
+numpy
+
+# Machine learning
+scikit-learn==1.2.2
+xgboost
+
+# Visualization
+matplotlib
+seaborn
+
+# Utilities
+joblib
+plotly
+
+# Optional but recommended
+python-dotenv
+watchdog
+
+# -e .
