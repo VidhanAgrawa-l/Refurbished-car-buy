@@ -1,0 +1,30 @@
+columns:
+  'Unnamed: 0': int64
+  brand: int64
+  car_name: int64
+  engine: int64
+  fuel_type: int64
+  km_driven: int64
+  max_power: int64
+  mileage: int64
+  model: int64
+  seats: int64
+  seller_type: int64
+  selling_price: int64
+  transmission_type: int64
+  vehicle_age: int64
+numerical_columns:
+- 'Unnamed: 0'
+- car_name
+- brand
+- model
+- vehicle_age
+- km_driven
+- seller_type
+- fuel_type
+- transmission_type
+- mileage
+- engine
+- max_power
+- seats
+- selling_price

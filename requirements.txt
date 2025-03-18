@@ -11,6 +11,9 @@ dagshub
 fastapi
 uvicorn
 python-multipart
+dill
+pyaml
+
 
 
 
@@ -21,7 +24,7 @@ pandas
 numpy
 
 # Machine learning
-scikit-learn==1.2.2
+# scikit-learn==1.2.2
 xgboost
 
 # Visualization
