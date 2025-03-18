@@ -1,4 +1,4 @@
-from refurbished_car.exception.exception import NetworkSecurityException
+from refurbished_car.exception.exception import RefurbishedCarException
 from refurbished_car.logging.logger import logging
 
 
@@ -24,7 +24,7 @@ class DataIngestion:
         try:
             self.data_ingestion_config=data_ingestion_config
         except Exception as e:
-            raise NetworkSecurityException(e,sys)
+            raise RefurbishedCarException(e,sys)
         
     def export_collection_as_dataframe(self):
         """
@@ -43,7 +43,7 @@ class DataIngestion:
             df.replace({"na":np.nan},inplace=True)
             return df
         except Exception as e:
-            raise NetworkSecurityException
+            raise RefurbishedCarException
         
     def export_data_into_feature_store(self,dataframe: pd.DataFrame):
         try:
@@ -55,7 +55,7 @@ class DataIngestion:
             return dataframe
             
         except Exception as e:
-            raise NetworkSecurityException(e,sys)
+            raise RefurbishedCarException(e,sys)
         
     def split_data_as_train_test(self,dataframe: pd.DataFrame):
         try:
@@ -85,7 +85,7 @@ class DataIngestion:
 
             
         except Exception as e:
-            raise NetworkSecurityException(e,sys)
+            raise RefurbishedCarException(e,sys)
         
         
     def initiate_data_ingestion(self):
@@ -98,4 +98,5 @@ class DataIngestion:
             return dataingestionartifact
 
         except Exception as e:
-            raise NetworkSecurityException
+            raise RefurbishedCarException
+        

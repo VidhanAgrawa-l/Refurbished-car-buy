@@ -1,4 +1,4 @@
-  import os
+import os
 import sys
 import numpy as np
 import pandas as pd
@@ -6,10 +6,10 @@ import pandas as pd
 """
 defining common constant variable for training pipeline
 """
-TARGET_COLUMN = "Result"
-PIPELINE_NAME: str = "NetworkSecurity"
+TARGET_COLUMN = "selling_price"
+PIPELINE_NAME: str = "RefurbishedCar"
 ARTIFACT_DIR: str = "Artifacts"
-FILE_NAME: str = "phisingData.csv"
+FILE_NAME: str = "cardekho_imputated.csv"
 
 TRAIN_FILE_NAME: str = "train.csv"
 TEST_FILE_NAME: str = "test.csv"
@@ -25,8 +25,8 @@ MODEL_FILE_NAME = "model.pkl"
 """
 Data Ingestion related constant start with DATA_INGESTION VAR NAME
 """
-DATA_INGESTION_COLLECTION_NAME: str = "NetworkData"
-DATA_INGESTION_DATABASE_NAME: str = "KRISHAI"
+DATA_INGESTION_COLLECTION_NAME: str = "RefurbishedCarData"
+DATA_INGESTION_DATABASE_NAME: str = "CardekhoData"
 DATA_INGESTION_DIR_NAME: str = "data_ingestion"
 DATA_INGESTION_FEATURE_STORE_DIR: str = "feature_store"
 DATA_INGESTION_INGESTED_DIR: str = "ingested"
