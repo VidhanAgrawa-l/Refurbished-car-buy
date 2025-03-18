@@ -1,0 +1,18 @@
+[ 2025-03-18 20:17:42,147 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2025-03-18 20:17:44,227 ] 28 root - INFO - Initiate the data ingestion
+[ 2025-03-18 20:17:46,092 ] 68 root - INFO - Performed train test split on the dataframe
+[ 2025-03-18 20:17:46,092 ] 70 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2025-03-18 20:17:46,092 ] 78 root - INFO - Exporting train and test file path.
+[ 2025-03-18 20:17:46,150 ] 87 root - INFO - Exported train and test file path.
+[ 2025-03-18 20:17:46,153 ] 30 root - INFO - Data Initiation Completed
+[ 2025-03-18 20:17:46,155 ] 34 root - INFO - Initiate the data Validation
+[ 2025-03-18 20:17:46,176 ] 32 root - INFO - Required number of columns:2
+[ 2025-03-18 20:17:46,176 ] 33 root - INFO - Data frame has columns:14
+[ 2025-03-18 20:17:46,176 ] 32 root - INFO - Required number of columns:2
+[ 2025-03-18 20:17:46,176 ] 33 root - INFO - Data frame has columns:14
+[ 2025-03-18 20:17:46,356 ] 36 root - INFO - data Validation Completed
+[ 2025-03-18 20:17:46,356 ] 39 root - INFO - data Transformation started
+[ 2025-03-18 20:17:46,357 ] 63 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2025-03-18 20:17:46,357 ] 65 root - INFO - Starting data transformation
+[ 2025-03-18 20:17:46,378 ] 48 root - INFO - Entered get_data_trnasformer_object method of Trnasformation class
+[ 2025-03-18 20:17:46,378 ] 53 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}

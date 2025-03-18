@@ -1,0 +1,42 @@
+'Unnamed: 0':
+  drift_status: false
+  p_value: 0.7401850878820329
+brand:
+  drift_status: false
+  p_value: 0.8926545357557197
+car_name:
+  drift_status: false
+  p_value: 0.8778092589993991
+engine:
+  drift_status: false
+  p_value: 0.6950749720807544
+fuel_type:
+  drift_status: false
+  p_value: 0.9859975201706411
+km_driven:
+  drift_status: false
+  p_value: 0.3841097473790003
+max_power:
+  drift_status: false
+  p_value: 0.997847803733505
+mileage:
+  drift_status: false
+  p_value: 0.6570253090571234
+model:
+  drift_status: false
+  p_value: 0.9797189122267473
+seats:
+  drift_status: false
+  p_value: 0.9999999999999998
+seller_type:
+  drift_status: false
+  p_value: 0.6878077763485639
+selling_price:
+  drift_status: false
+  p_value: 0.8561736510014798
+transmission_type:
+  drift_status: false
+  p_value: 0.9987946511795308
+vehicle_age:
+  drift_status: false
+  p_value: 0.8232950064918687

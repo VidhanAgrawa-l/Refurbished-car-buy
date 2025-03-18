@@ -1,0 +1,47 @@
+[ 2025-03-18 21:52:26,584 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2025-03-18 21:52:27,956 ] 28 root - INFO - Initiate the data ingestion
+[ 2025-03-18 21:52:29,346 ] 68 root - INFO - Performed train test split on the dataframe
+[ 2025-03-18 21:52:29,346 ] 70 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2025-03-18 21:52:29,346 ] 78 root - INFO - Exporting train and test file path.
+[ 2025-03-18 21:52:29,399 ] 87 root - INFO - Exported train and test file path.
+[ 2025-03-18 21:52:29,402 ] 30 root - INFO - Data Initiation Completed
+[ 2025-03-18 21:52:29,404 ] 34 root - INFO - Initiate the data Validation
+[ 2025-03-18 21:52:29,424 ] 32 root - INFO - Required number of columns:2
+[ 2025-03-18 21:52:29,424 ] 33 root - INFO - Data frame has columns:14
+[ 2025-03-18 21:52:29,424 ] 32 root - INFO - Required number of columns:2
+[ 2025-03-18 21:52:29,424 ] 33 root - INFO - Data frame has columns:14
+[ 2025-03-18 21:52:29,605 ] 36 root - INFO - data Validation Completed
+[ 2025-03-18 21:52:29,605 ] 39 root - INFO - data Transformation started
+[ 2025-03-18 21:52:29,605 ] 204 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2025-03-18 21:52:29,605 ] 206 root - INFO - Starting data transformation
+[ 2025-03-18 21:52:29,625 ] 210 root - INFO - Train dataframe shape: (12328, 14)
+[ 2025-03-18 21:52:29,625 ] 211 root - INFO - Test dataframe shape: (3083, 14)
+[ 2025-03-18 21:52:29,626 ] 214 root - INFO - Train dataframe data types: Unnamed: 0             int64
+car_name              object
+brand                 object
+model                 object
+vehicle_age            int64
+km_driven              int64
+seller_type           object
+fuel_type             object
+transmission_type     object
+mileage              float64
+engine                 int64
+max_power            float64
+seats                  int64
+selling_price          int64
+dtype: object
+[ 2025-03-18 21:52:29,627 ] 160 root - INFO - Entered get_data_transformer_object method of DataTransformation class
+[ 2025-03-18 21:52:29,627 ] 195 root - INFO - Created preprocessing pipeline for numerical and categorical features
+[ 2025-03-18 21:52:29,628 ] 228 root - INFO - Fitting preprocessor on training data
+[ 2025-03-18 21:52:29,684 ] 232 root - INFO - Transforming training and testing data
+[ 2025-03-18 21:52:29,714 ] 237 root - INFO - Transformed train data shape: (12328, 289)
+[ 2025-03-18 21:52:29,714 ] 238 root - INFO - Transformed test data shape: (3083, 289)
+[ 2025-03-18 21:52:29,722 ] 245 root - INFO - Saving transformed data and preprocessor object
+[ 2025-03-18 21:52:29,742 ] 46 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-03-18 21:52:29,746 ] 50 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-03-18 21:52:29,746 ] 46 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-03-18 21:52:29,747 ] 50 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-03-18 21:52:29,747 ] 261 root - INFO - Data transformation completed successfully
+[ 2025-03-18 21:52:29,749 ] 43 root - INFO - data Transformation completed
+[ 2025-03-18 21:52:29,749 ] 45 root - INFO - Model Training sstared
